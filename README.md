@@ -1,5 +1,9 @@
 # Pixelmosaik.com
-Docker Container running on 2 Hosts: 1x Nginx ReverseProxy with Letsencrypt Certificat + 1x Wordpress/mariaDB backend all automated 
+Docker Container running on 2 Hosts: 1x Nginx ReverseProxy with Letsencrypt Certificat + 1x Wordpress/mariaDB backend all automated with bash scripts docker compose and cronjob's
+
+to start the setup use ./install.sh
+
+for this setups you need to download docker: https://docs.docker.com/get-started/get-docker/
 
 to youse the setup for you're website you need to add 
 
@@ -27,3 +31,4 @@ File structure reverse Proxy:
 ├── cron.sh
 └── install.sh
 
+in my own setup i youse DynDNS from K0p1: https://github.com/K0p1-Git/cloudflare-ddns-updater.git
