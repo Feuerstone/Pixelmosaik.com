@@ -13,5 +13,17 @@ edit the file path's as needed
 sometimes we are using realtiv paths ./ that means the start point is the directory you are right now 
 these can be seen here ./docker-compose-initiate.yaml if it is just a / it means it is a absoulut path.
 
+File structure reverse Proxy:
 
+├── etc
+  │   │
+  │   └── nginx
+  │       ├── templates
+  │        │   └── default.conf.template
+  │       └── templates-initiate
+  │           └── default.conf.template
+├── docker-compose-initiate.yaml
+├── docker-compose.yaml
+├── cron.sh
+└── install.sh
 
